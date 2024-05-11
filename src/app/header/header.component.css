@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    width: auto;
+    max-height: 30px;
+    margin-left: 160px;
+    padding-top: 40px;
+    background-color: blueviolet;
+    background: transparent ;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .menu {
+    color: whitesmoke;
+    display: flex;
+    line-height: 30px;
+    padding-left: 789px;
+    list-style-type: none;
+  }
+  .one {
+    padding-left: 50px;
+  }
+  a{
+    color: whitesmoke;
+    text-decoration: none;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+  }

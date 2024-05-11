@@ -1,0 +1,25 @@
+body{
+    background: rgb(5,10,36) !important;
+    background: linear-gradient(108deg, rgba(5,10,36,1) 0%, rgba(9,16,53,1) 82%) !important;
+}
+
+.container{
+    background-color: whitesmoke;
+    margin: 100px 250px 0px;
+    height: 1000px;
+}
+
+.item{
+    display: inline-block;
+    margin:0px 0px 25px 25px;
+    width: 250px;
+    height: 350px;
+    padding-top: 15px;
+}
+img {max-width:100%;height:auto;}
+
+.name{
+    color: black;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
