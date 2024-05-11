@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
     width: auto;
     max-height: 30px;
     margin-left: 160px;
@@ -17,13 +17,13 @@
   .menu {
     color: whitesmoke;
     display: flex;
+    flex-wrap: wrap;
     line-height: 30px;
     padding-left: 789px;
     list-style-type: none;
+    gap: 30px;
   }
-  .one {
-    padding-left: 50px;
-  }
+  
   a{
     color: whitesmoke;
     text-decoration: none;
