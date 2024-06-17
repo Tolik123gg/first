@@ -1,10 +1,10 @@
-import { Component } from '@angular/core';
+import { Component,HostListener } from '@angular/core';
 @Component({
-  selector: 'app-no-country-for-old-men',
-  standalone: true,
-  imports: [],
-  templateUrl: './no-country-for-old-men.component.html',
-  styleUrl: '../allMovie.css',
+    selector: 'app-no-country-for-old-men',
+    standalone: true,
+    templateUrl: './no-country-for-old-men.component.html',
+    styleUrl: '../allMovie.css',
+    imports: []
 })
 export class NoCountryForOldMenComponent {
   backgroundimg="./assets/img/films/no_country.png"
