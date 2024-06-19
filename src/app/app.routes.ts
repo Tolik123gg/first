@@ -15,6 +15,7 @@ import { FiremovieComponent } from './component/movie/firemovie/firemovie.compon
 import path from 'path';
 import { SerialComponent } from './pages/serial/serial.component';
 import { BoysComponent } from './component/serials/boys/boys.component';
+import { WalkingbadComponent } from './component/serials/walkingbad/walkingbad.component';
 
 export const routes: Routes = [
 
@@ -37,7 +38,7 @@ export const routes: Routes = [
     {path:'serial', component:SerialComponent},
     {path:'serial',children:[
         {path:'boys',title:'Хлопці',component:BoysComponent},
-        // {path:'interstellar',title:'Інтерстеллар',component:IterstellarComponent},
+        {path:'walking-dead',title:'Ходячі мерці',component:WalkingbadComponent},
         // {path:'sem',title:'СІм',component:SevenmovieComponent},
         // {path:'tri-metra-nadurovnem-neba',title:'Три метри над рівнем неба',component:ThreemetrComponent},
         // {path:'glubokovodnyy-gorizont',title:'Глибоководний горизонт',component:GorizontComponent},

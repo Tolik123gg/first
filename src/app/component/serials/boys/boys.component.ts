@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: '../allSerials.css'
 })
 export class BoysComponent {
-
+  boys='./assets/img/serial/boy.png'
 }
