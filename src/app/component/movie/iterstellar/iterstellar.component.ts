@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './iterstellar.component.html',
-  styleUrl: '../allMovie.css'
+  styleUrl: '../allmovie.css'
 })
 export class IterstellarComponent {
   backgroundimg="./assets/img/films/inter.png"

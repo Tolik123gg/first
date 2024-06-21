@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: '../allSerials.css'
 })
 export class WalkingbadComponent {
-  backgroundimg='./assets/iimg/serial/walking.png'
+  backgroundimg='./assets/img/serial/walking.png'
 }

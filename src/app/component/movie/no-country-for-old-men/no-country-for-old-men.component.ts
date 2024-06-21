@@ -3,7 +3,7 @@ import { Component,HostListener } from '@angular/core';
     selector: 'app-no-country-for-old-men',
     standalone: true,
     templateUrl: './no-country-for-old-men.component.html',
-    styleUrl: '../allMovie.css',
+    styleUrl: '../allmovie.css',
     imports: []
 })
 export class NoCountryForOldMenComponent {

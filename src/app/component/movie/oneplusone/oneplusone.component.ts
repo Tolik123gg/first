@@ -5,17 +5,17 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './oneplusone.component.html',
-  styleUrl: '../allMovie.css'
+  styleUrl: '../allmovie.css'
 })
 export class OneplusoneComponent {
-  backgroundimg="./assets/img/films/one.png"
-  title='Інтерстеллар'
-  slogan='Наступний крок людства стане найбільшим'
-  info ={
-    date:  '6 листопада 2014 року',
-    country:  'США',
-    duration: '169 хвилини',
-    genre: 'пригоди, драми, фантастика',
-    actor: 'Еллен Берстін, Меттью Макконехі, Джон Літгоу, Девід Ойелоуо'
+  backgroundimg = "./assets/img/films/one.png"
+  title = '1+1'
+  slogan = 'Іноді доводиться заходити в чужий світ, щоб з’ясувати, чого не вистачає у власному.'
+  info = {
+    date: '3 жовтня 2011 року',
+    country: 'США',
+    duration: '112 хвилини',
+    genre: 'Драма, Комедія, Біографічний',
+    actor: 'Франсуа Клюзе, Омар Сі, Анн Ле Ні, Одрі Фльоро, Жозефін де Мо, Клотільд Молле, Альба Гайя Крагеде Беллуджі, Сіріл Менді, Салімата Камате'
   }
 }

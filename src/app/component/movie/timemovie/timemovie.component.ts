@@ -5,17 +5,17 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './timemovie.component.html',
-  styleUrl: '../allMovie.css'
+  styleUrl: '../allmovie.css'
 })
 export class TimemovieComponent {
   backgroundimg="./assets/img/films/in-time.png"
-  title='Інтерстеллар'
-  slogan='Наступний крок людства стане найбільшим'
+  title='Час'
+  slogan='Живи вічно чи помри, намагаючись'
   info ={
-    date:  '6 листопада 2014 року',
+    date:  '31 вересня 2011 року',
     country:  'США',
-    duration: '169 хвилини',
-    genre: 'пригоди, драми, фантастика',
-    actor: 'Еллен Берстін, Меттью Макконехі, Джон Літгоу, Девід Ойелоуо'
+    duration: '109 хвилини',
+    genre: 'Фантастика, Трилер, Бойовик',
+    actor: 'Джастін Тімберлейк, Аманда Сейфрід, Кіліан Мерфі, Олівія Вайлд, Алекс Петтіфер, Джонні Ґалекі'
   }
 }

@@ -8,14 +8,14 @@ import { Component } from '@angular/core';
   styleUrl: '../allmovie.css'
 })
 export class ThreemetrComponent {
-  backgroundimg="./assets/img/films/three.png"
-  title='Інтерстеллар'
-  slogan='Наступний крок людства стане найбільшим'
-  info ={
-    date:  '6 листопада 2014 року',
-    country:  'США',
-    duration: '169 хвилини',
-    genre: 'пригоди, драми, фантастика',
-    actor: 'Еллен Берстін, Меттью Макконехі, Джон Літгоу, Девід Ойелоуо'
+  backgroundimg = "./assets/img/films/three.png"
+  title = 'Три метри над рівнем неба'
+  slogan = 'Коли любов забирає у хмари…'
+  info = {
+    date: '6 листопада 2010 року',
+    country: 'Іспанія',
+    duration: '118 хвилини',
+    genre: 'Драми , Романтичні',
+    actor: 'Маріо Касас, Марія Вальверде, Альваро Сервантес, Марина Салас, Луїс Фернандес, Андреа Дуро'
   }
 }

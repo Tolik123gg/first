@@ -5,17 +5,17 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './americanpie.component.html',
-  styleUrl: '../allMovie.css'
+  styleUrl: '../allmovie.css'
 })
 export class AmericanpieComponent {
   backgroundimg="./assets/img/films/american.png"
-  title='Інтерстеллар'
-  slogan='Наступний крок людства стане найбільшим'
+  title='Американьский пиріг'
+  slogan='Дещо про першу порцію'
   info ={
-    date:  '6 листопада 2014 року',
+    date:  '9 липня 1999 року',
     country:  'США',
-    duration: '169 хвилини',
-    genre: 'пригоди, драми, фантастика',
-    actor: 'Еллен Берстін, Меттью Макконехі, Джон Літгоу, Девід Ойелоуо'
+    duration: '95 хвилини',
+    genre: 'Комедія , Романтичні',
+    actor: 'Кріс Вайц, Джейсон Біггз, Кріс Клейн, Томас Іен Ніколас, Елісон Хенніген, Шеннон Елізабет'
   }
 }

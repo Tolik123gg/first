@@ -3,7 +3,7 @@ import { RouterModule } from '@angular/router';
 import { LoginComponent } from '../pages/login/login.component';
 
 @Component({
-  selector: 'header',
+  selector: 'app-header',
   standalone: true,
   imports: [RouterModule,LoginComponent],
   templateUrl: './header.component.html',

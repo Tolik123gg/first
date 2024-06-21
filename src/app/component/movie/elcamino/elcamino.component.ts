@@ -5,17 +5,17 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './elcamino.component.html',
-  styleUrl: '../allMovie.css'
+  styleUrl: '../allmovie.css'
 })
 export class ElcaminoComponent {
   backgroundimg="./assets/img/films/camino.png"
-  title='Інтерстеллар'
-  slogan='Наступний крок людства стане найбільшим'
+  title='Ель Каміно: Пуститися берега'
+  slogan='Нестійке. Летке. Небезпечне. І це тільки хімія.'
   info ={
-    date:  '6 листопада 2014 року',
+    date:  '7 жовтня 2019 року',
     country:  'США',
-    duration: '169 хвилини',
-    genre: 'пригоди, драми, фантастика',
-    actor: 'Еллен Берстін, Меттью Макконехі, Джон Літгоу, Девід Ойелоуо'
+    duration: '122 хвилини',
+    genre: 'Фільми , Екшн , Кримінал , Трилери , Пуститися берега',
+    actor: 'Аарон Пол, Джонатан Бенкс, Matt Jones, Чарльз Бейкер, Todd Terry, Джулі Перл'
   }
 }

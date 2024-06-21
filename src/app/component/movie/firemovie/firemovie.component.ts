@@ -5,17 +5,17 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './firemovie.component.html',
-  styleUrl: '../allMovie.css'
+  styleUrl: '../allmovie.css'
 })
 export class FiremovieComponent {
   backgroundimg="./assets/img/films/fire.png"
-  title='Інтерстеллар'
-  slogan='Наступний крок людства стане найбільшим'
+  title='Вогнеборці'
+  slogan='Важливо не те, що стоїть перед тобою, а те, хто стоїть поруч'
   info ={
-    date:  '6 листопада 2014 року',
+    date:  '6 жовтня  2017 року',
     country:  'США',
-    duration: '169 хвилини',
-    genre: 'пригоди, драми, фантастика',
-    actor: 'Еллен Берстін, Меттью Макконехі, Джон Літгоу, Девід Ойелоуо'
+    duration: '134 хвилини',
+    genre: 'Драма, Бойовик, Біографічний',
+    actor: 'Джош Бролін, Майлз Теллер, Джефф Бріджес, Джеймс Бедж Дейл, Тейлор Кітч, Дженніфер Коннеллі, Скотт Гейз, Алекс Расселл, Бен Гарді, Наталі Голл'
   }
 }
